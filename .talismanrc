@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: guess_a_number.dSYM/Contents/Info.plist
+  checksum: e6b6f832c573fac5567fa5ca2a3cd9bc56a635804eab5775f2cf7269b3f7ba8f
+version: ""
