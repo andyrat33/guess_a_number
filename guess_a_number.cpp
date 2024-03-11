@@ -6,7 +6,7 @@ int main() {
 	int guess;
 	bool notGuessed{true};
 	int targetNumber = arc4random() % 1000 + 1;
-	int guessNumber = 0;
+	int guessNumber{0};
 
 	cout << "The number is " << targetNumber << "\n"; 
 
