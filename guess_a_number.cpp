@@ -22,7 +22,7 @@ int main() {
 			
 		} else if (guess > targetNumber) 
 			{
-			cout << "\nLower\n";
+			cout << "Lower\n";
 		} else //if (guess == targetNumber) {
 		{
 			notGuessed = false;
