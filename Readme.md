@@ -1,3 +1,7 @@
+###ChatGPT
+**I asked**
+*Given a program to pick a random number between 1 and 1000 which allows the user to guess the number giving feedback of either higher, lower or correct what is the minimum possible number of guesses to get the correct answer?*
+##ChatGPT said
 To minimize the number of guesses required to find the correct number in a range of 1 to 1000, you can use a binary search algorithm. Binary search is an efficient algorithm for finding an item from a sorted list of items.
 
 In this case, the user's guess will split the remaining search space in half each time. So, after each guess, you're effectively eliminating half of the remaining possibilities.
