@@ -6,9 +6,9 @@ int main() {
 	int guess;
 	bool notGuessed{true};
 	int targetNumber = arc4random() % 1000 + 1;
-	int guessNumber{0};
+	int guessNumber{1};
 
-	cout << "The number is " << targetNumber << "\n"; 
+	//cout << "The number is " << targetNumber << "\n"; 
 
 	cout << "Guess the number";
 	cout << "\n" << "I thought of a number between 1 and 1000\n";
